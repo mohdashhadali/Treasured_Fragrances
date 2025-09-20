@@ -1,12 +1,8 @@
-import { useState } from "react";
-function App() {
+import React from "react";
+import AppRoutes from "./routes/AppRoutes";
 
-  return (
-     <>
-    <h1>Vite + React</h1>
-  </>
-  )
- 
+function App() {
+  return <AppRoutes />;
 }
 
 export default App;
