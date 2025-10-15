@@ -44,10 +44,6 @@ export default function HomePage() {
           </div>
         ))}
       </div>
-
-      <button className="mt-8 px-6 py-3 bg-white text-purple-600 font-semibold rounded-full shadow-lg hover:scale-105 transition-transform">
-        Notify Me
-      </button>
     </div>
   );
 }
